@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Gotham Rounded;
+  src: url('../../fonts/GothamRounded-Light.woff') format('woff'), url('../../fonts/GothamRounded-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gotham Rounded;
+  src: url('../../fonts/GothamRounded-Bold.woff') format('woff'), url('../../fonts/GothamRounded-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gotham Rounded;
+  src: url('../../fonts/GothamRounded-Book.woff') format('woff'), url('../../fonts/GothamRounded-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*, *::before, *::after {
+  font-family: Gotham Rounded, sans-serif;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: inherit;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.btn--primary{
+  color: white;
+  background-color: hsl(200, 100%, 50%);
+}
+.btn--primary:hover{
+  background-color: hsl(200, 100%, 35%);
+}
+
+.btn--danger{
+  color: white;
+  background-color: hsl(0, 100%, 50%);
+}
+.btn--danger:hover{
+  background-color: hsl(0, 100%, 35%);
+}
+
+html{
+  font-size: 25px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1{
+  margin-right: 5px;
+}
