@@ -1,14 +1,12 @@
 import RecipeList from '../recipe-list/RecipeList';
-import { sampleRecipes } from '../../data/recipes';
-
+import { RecipeProvider } from '../../context/RecipeContext';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <RecipeList recipes={sampleRecipes} />
-    </div>
+    <RecipeProvider>
+      <RecipeList />
+    </RecipeProvider>
   );
-}
-
+};
 export default App;
